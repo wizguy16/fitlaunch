@@ -3,6 +3,8 @@ import { Hero } from "@/features/marketing/hero/Hero";
 import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
 import { ProgramGrid } from "@/features/programs/components/ProgramGrid";
+import { PricingSection } from "@/features/pricing/components/PricingSection";
+
 
 export default function Page() {
   return (
@@ -29,6 +31,8 @@ export default function Page() {
 
   </Container>
 </Section>
+
+ <PricingSection />
     </main>
   );
 }
