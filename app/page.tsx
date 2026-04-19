@@ -4,6 +4,8 @@ import { Section } from "@/components/layout/Section";
 import { Container } from "@/components/layout/Container";
 import { ProgramGrid } from "@/features/programs/components/ProgramGrid";
 import { PricingSection } from "@/features/pricing/components/PricingSection";
+import { TestimonialsSection } from "@/features/testimonials/components/TestimonialsSection";
+
 
 
 export default function Page() {
@@ -33,6 +35,8 @@ export default function Page() {
 </Section>
 
  <PricingSection />
+
+ <TestimonialsSection />
     </main>
   );
 }
