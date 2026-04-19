@@ -1,4 +1,3 @@
-import { ProgramCard } from "./ProgramCard";
 
 export type Program = {
   id: string;
@@ -31,13 +30,3 @@ export const programs: Program[] = [
     image: "/images/hero.jpg",
   },
 ];
-
-export function ProgramGrid() {
-  return (
-  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {programs.map((program) => (
-      <ProgramCard key={program.id} {...program} />
-    ))}
-  </div>
-);
-}

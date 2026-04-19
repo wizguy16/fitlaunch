@@ -24,7 +24,7 @@ export function CTASection() {
             </p>
 
             <div className="mt-8 flex justify-center">
-              <Button className="px-8 py-4 text-lg">
+              <Button className="px-10 py-5 text-lg font-semibold">
                 Start Your Program
               </Button>
             </div>

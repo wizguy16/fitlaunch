@@ -1,5 +1,9 @@
+"use client";
+
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
+
 
 type PricingCardProps = {
   title: string;
@@ -10,12 +14,16 @@ type PricingCardProps = {
 };
 
 export function PricingCard({
+    
+
+    
   title,
   price,
   description,
   features,
   highlighted = false,
 }: PricingCardProps) {
+    const router = useRouter();
   return (
     <div
       className={cn(
@@ -54,9 +62,15 @@ export function PricingCard({
 
       {/* CTA */}
       <div className="mt-8">
-        <Button className="w-full">
-          {highlighted ? "Start Pro Plan" : "Get Started"}
-        </Button>
+        <Button
+  className="w-full"
+  onClick={() => {
+    console.log("PRICING CLICK");
+    router.push("/programs");
+  }}
+>
+  {highlighted ? "Start Pro Plan" : "Get Started"}
+</Button>
       </div>
     </div>
   );
