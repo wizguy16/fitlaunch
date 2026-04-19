@@ -5,6 +5,7 @@ import { Container } from "@/components/layout/Container";
 import { ProgramGrid } from "@/features/programs/components/ProgramGrid";
 import { PricingSection } from "@/features/pricing/components/PricingSection";
 import { TestimonialsSection } from "@/features/testimonials/components/TestimonialsSection";
+import { CTASection } from "@/features/cta/components/CTASection";
 
 
 
@@ -37,6 +38,8 @@ export default function Page() {
  <PricingSection />
 
  <TestimonialsSection />
+
+ <CTASection />
     </main>
   );
 }
