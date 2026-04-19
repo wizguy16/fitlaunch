@@ -1,0 +1,61 @@
+:root {
+  /* =========================
+     CORE BRAND COLORS
+  ========================= */
+  --color-primary: #cafd00;
+  --color-primary-dim: #beee00;
+
+  --color-secondary: #ff7439;
+
+  /* =========================
+     BACKGROUND SYSTEM
+  ========================= */
+  --color-bg: #0e0e0e;
+  --color-surface: #131313;
+  --color-surface-2: #1a1919;
+  --color-surface-3: #201f1f;
+
+  /* =========================
+     TEXT SYSTEM
+  ========================= */
+  --text-primary: #ffffff;
+  --text-secondary: #cfcfcf;
+  --text-muted: #8f8f8f;
+
+  /* =========================
+     BORDER + OUTLINE
+  ========================= */
+  --border-subtle: #262626;
+  --border-default: #3a3a3a;
+
+  /* =========================
+     STATE COLORS
+  ========================= */
+  --color-success: #22c55e;
+  --color-error: #ff7351;
+  --color-warning: #facc15;
+
+  /* =========================
+     SPACING SCALE
+  ========================= */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+
+  /* =========================
+     RADIUS SYSTEM
+  ========================= */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* =========================
+     SHADOW SYSTEM
+  ========================= */
+  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-strong: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
